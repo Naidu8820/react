@@ -17,7 +17,7 @@ function App() {
     return (
         <Router>
             <Routes>
-                <Route path='/' element={<Login/>}/>
+                <Route path='/react' element={<Login/>}/>
                 <Route path='/dashboard' element={<Dashboard/>}/>
                 <Route path='/mobile' element={<Mobile/>}/>
                 <Route path='/mobile/:id' element={<MobileDisplay/>}/>
