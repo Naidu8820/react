@@ -15,6 +15,7 @@ function Laptop() {
                 <img src={e.image} alt={e.Brand} />
                 <p>{e.Brand}</p>
                 <p>{e.price}</p>
+                
               </div>
             </div>
           </Link>
