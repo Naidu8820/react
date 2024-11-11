@@ -7,7 +7,7 @@ function Slicemobile() {
  const  sliceproducts=Products.slice(0,4)
   return (
     <Link to='/mobile'>
-      <div className='flexdirection'>
+      <div className='flexdirection' >
       {
       sliceproducts.map((e) =>(
           <div className='allborder'>

@@ -14,10 +14,10 @@
     
 }
 .head{
-    background-color: rgb(224, 198, 7);
-    text-align: center;
-  padding: 10px;
-  position:fixed;
+ background-color: rgb(224, 198, 7);
+text-align: center;
+ padding: 10px;
+ position:fixed;
   top: 0px;
   left: 0px;
   right: 0px;
@@ -50,4 +50,8 @@
     border-radius:5px ;
     height: 300px;
     width: 300px;
+}
+.display{
+    border:2px solid black ;
+    border-radius: 5px;
 }

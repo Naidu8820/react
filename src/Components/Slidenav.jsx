@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 function Sidenav() {
   return (
-    <div className='main'>
+    <div className='main' >
       <ul className='content'>
         <Link to='/dashboard'><li>DASHBOARD</li></Link>
         <Link to='/mobile'><li>MOBILES</li></Link>
