@@ -121,3 +121,67 @@
     height:20px ;
     width: 20px;
 }
+
+        /* cart page */
+/* Cart container styling */
+  
+  /* Heading styling */
+  h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Empty cart message */
+  p {
+    text-align: center;
+    color: #888;
+  }
+  
+  /* List and item styling */
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #eee;
+    padding: 10px 0;
+    margin-bottom: 10px;
+  }
+  
+  img {
+    margin-right: 15px;
+    border-radius: 4px;
+  }
+  
+  span {
+    margin-right: 15px;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  /* Price styling */
+  span:nth-of-type(2) {
+    font-weight: bold;
+    color: #555;
+  }
+  
+  /* Button styling */
+  button {
+    background-color: #ff4d4d;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #e60000;
+  }
+  

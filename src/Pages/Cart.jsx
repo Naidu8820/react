@@ -1,9 +1,9 @@
 import React from 'react';
 import { useCart } from '../context/CartContext';
 
-
 function Cart() {
-  const { cart } = useCart(); 
+  // Destructure cart and removeFromCart from context
+  const { cart, removeFromCart } = useCart();
 
   return (
     <div>
@@ -12,11 +12,12 @@ function Cart() {
         <p>Your cart is empty</p>
       ) : (
         <ul>
-          {cart.map((item, index) => (
-            <li key={index}>
+          {cart.map((item) => (
+            <li key={item.id}>
               <img src={item.image} alt={item.Brand || 'Product image'} width="50" />
               <span>{item.name}</span>
-              <span> price:₹{item.price}</span>
+              <span> Price: ₹{item.price}</span>
+              <button onClick={() => removeFromCart(item.id)}>Remove</button>
             </li>
           ))}
         </ul>
