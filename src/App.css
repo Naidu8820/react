@@ -136,7 +136,7 @@
   /* Empty cart message */
   p {
     text-align: center;
-    color: #888;
+    color: #1710e7;
   }
   
   /* List and item styling */
@@ -201,7 +201,7 @@
     text-align: center;
     font-size: 24px;
     margin-bottom: 20px;
-    color: #333;
+    color: #363535;
   }
   
   form div {
