@@ -15,25 +15,25 @@
 }
 
 
-/* Header Container */
+
 .header-container {
     position: sticky;
     top: 0%;
     padding: 20px 0;
-    background-color: #0e0e0e; /* Light gray background */
+    background-color: #0e0e0e; 
   }
   
-  /* Main Header Styles */
+  
   .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
-    max-width: 1199px;
+    max-width: 1200px;
     margin: 0 auto;
   }
   
-  /* Header Title */
+  
   .header-title {
     font-size: 32px;
     font-weight: bold;
@@ -41,17 +41,17 @@
     margin: 0;
   }
   
-  /* Cart Link and Icon Styling */
+
   .cart-link {
     display: flex;
     align-items: center;
     text-decoration: none;  /* Remove underline */
-    color: #faf7f7;  /* Default text color */
+    color: #faf7f7;  
     font-size: 18px;
   }
   
   .cart-link:hover {
-    color: #007bff;  /* Change color on hover */
+    color: #007bff; 
   }
   
   .cart-icon {
@@ -65,7 +65,7 @@
     color: #f7f3f3;
   }
   
-  /* Responsive Design */
+  
   @media (max-width: 768px) {
     .header {
       flex-direction: column;
