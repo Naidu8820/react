@@ -113,9 +113,10 @@
     width: 300px;
 }
 .display{
-
+  width: fit-content;
     border:2px solid black ;
     border-radius: 4px;
+    overflow: hidden;
 }
 .shoppingcart{
     height:20px ;
