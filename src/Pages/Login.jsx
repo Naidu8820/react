@@ -4,10 +4,10 @@ import { Link, useNavigate } from 'react-router-dom';
 function Login() {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
-  const [error, setError] = useState(null); // To store error messages
+  const [error, setError] = useState(null); 
   const nav = useNavigate();
 
-  // Function to validate email format
+  
   const validateEmail = (email) => {
     const regex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     return regex.test(email);
@@ -16,22 +16,22 @@ function Login() {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    // Reset previous errors
+  
     setError(null);
 
-    // Check if email and password are provided
+    
     if (!email || !password) {
       setError('Please fill in both fields');
       return;
     }
 
-    // Validate email format
+    
     if (!validateEmail(email)) {
       setError('Please enter a valid email address');
       return;
     }
 
-    // Simulate login (this would be an API call in a real app)
+    
     if (email === 'user@gmail.com' && password === '1234') {
       nav('/dashboard');  // Redirect to the home page
     } else {
@@ -43,7 +43,7 @@ function Login() {
     <div className="login-container">
       <h1>Login Page</h1>
 
-      {/* Show error message if there's any */}
+    
       {error && <div className="error-message">{error}</div>}
 
       <form onSubmit={handleSubmit}>
