@@ -16,7 +16,7 @@ function Dashboard() {
         <Col sm={2}>
           <Sidenav />
         </Col>
-        <Col sm={10} >
+        <Col sm={10}>
           <Slicemobile />
           <Slicelaptop />
           <Sliceearbuds />

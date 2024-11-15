@@ -2,6 +2,7 @@ import React from 'react'
 import { Products } from '../Data/Tvdata'
 import { Link } from 'react-router-dom'
 import Header from '../Components/Header'
+import { FaStar } from 'react-icons/fa';
 function Tv() {
   return (
     <div>
@@ -14,7 +15,8 @@ function Tv() {
               <div key={e.id}>
                 <img src={e.image} alt={e.Brand} />
                 <p>{e.Brand}</p>
-                <p>{e.price}</p>
+                <p>price:₹{e.price}</p>
+                <p className='rating'>{e.rating} { <FaStar /> } <FaStar /> <FaStar /></p>
               </div>
             </div>
         </Link >

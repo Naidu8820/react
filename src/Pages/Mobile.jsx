@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import { Products } from '../Data/Mobiledata'
 import Header from '../Components/Header';
-
+import { FaStar } from 'react-icons/fa';
 function Mobile() {
   return (
       <div>
@@ -14,7 +14,8 @@ function Mobile() {
               <div key={e.id}>
                 <img src={e.image} alt={e.Brand} />
                 <p>{e.Brand}</p>
-                <p>{e.price}</p>
+                <p>price:₹{e.price}</p>
+                <p className='rating'>{e.rating} { <FaStar /> } <FaStar /> <FaStar /></p>
               </div>
             </div>
           </Link>

@@ -2,6 +2,7 @@ import React from 'react'
 import { Products } from '../Data/Laptopdata'
 import { Link } from 'react-router-dom'
 import Header from '../Components/Header'
+import { FaStar } from 'react-icons/fa';
 function Laptop() {
   return (
     <div>
@@ -14,8 +15,8 @@ function Laptop() {
               <div key={e.id}>
                 <img src={e.image} alt={e.Brand} />
                 <p>{e.Brand}</p>
-                <p>{e.price}</p>
-                
+                <p>price:₹{e.price}</p>
+                <p className='rating'>{e.rating} { <FaStar /> } <FaStar /> <FaStar /></p>
               </div>
             </div>
           </Link>
