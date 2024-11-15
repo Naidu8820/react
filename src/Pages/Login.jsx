@@ -48,7 +48,7 @@ function Login() {
 
       <form onSubmit={handleSubmit}>
         <div>
-          <label htmlFor="email">Email:</label>
+          <label htmlFor="email">Email:user@gmail.com</label>
           <input
             type="email"
             id="email"
@@ -59,7 +59,7 @@ function Login() {
         </div>
 
         <div>
-          <label htmlFor="password">Password:</label>
+          <label htmlFor="password">Password:1234</label>
           <input
             type="password"
             id="password"
