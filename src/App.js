@@ -20,7 +20,7 @@ function App() {
     <CartProvider>
       <Router>
         <Routes>
-          <Route path='/react' element={<Login />} />
+          <Route path='/' element={<Login />} />
           <Route path='/dashboard' element={<Dashboard />} />
           <Route path='/mobile' element={<Mobile />} />
           <Route path='/mobile/:id' element={<MobileDisplay />} />
